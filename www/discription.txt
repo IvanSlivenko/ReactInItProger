@@ -1,0 +1,17 @@
+1. Створюємо HTML файл
+2. Створюэмо index.js файл
+3. Підключаємо в HTML посилання на React CDN
+4. Підключаємо index.js в index.HTML
+5. Підключаємо Babel
+6. Створюєємо div з id = 'app'
+7. ReactDOM.render(<h1>Hello</h1>, document.getElementById('app')) в index.js
+8. На index.html Open witch live server
+
+
+
+https://www.youtube.com/watch?v=7tx_DHs7ceM&list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2&index=2
+
+3:55
+
+https://www.youtube.com/watch?v=h8psMIltC1Q&list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2&index=3
+04:05
