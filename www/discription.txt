@@ -6,6 +6,24 @@
 6. Створюєємо div з id = 'app'
 7. ReactDOM.render(<h1>Hello</h1>, document.getElementById('app')) в index.js
 8. На index.html Open witch live server
+/////////////////////////////////////////////////////////////////////////////////////
+9. Відкриваємо Термінал
+10. npm i react
+11. npm i react-dom
+12. Удяляємо папку Node_modules
+13. Удаляємо файли package.json та package-lock.json
+14. npx create-react-app .
+(точка говорить, що ми маємо намір встановлювати проект у поточну папку)
+
+15. Видаляємо всі файли з src та створюємо пустий index.js
+16. Видаляємо всі файли з public крім index.html
+17.спрощуємо index.js
+
+18. npm run build
+19. npm run s
+20. id = "root" змінюємо на id="app"
+
+
 
 
 
@@ -15,3 +33,8 @@ https://www.youtube.com/watch?v=7tx_DHs7ceM&list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzl
 
 https://www.youtube.com/watch?v=h8psMIltC1Q&list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2&index=3
 04:05
+
+https://www.youtube.com/watch?v=Co5fxheeFkw&list=PLDyJYA6aTY1lpbNh66kFpF62QpJyzliT2&index=4
+05:04
+
+
