@@ -8,8 +8,6 @@ class App extends React.Component {
     return (
       <div>
         <Header title="Шапка Сайту" name="Name site" />
-        <Header title="Шапка Сайту!" />
-        <Header title="!!!" />
         <h1>{this.helpText}</h1>
         <input
           placeholder={this.helpText}
