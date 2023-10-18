@@ -1,13 +1,7 @@
 import React from "react";
 
-import User from './User';
-
-
 class Users extends React.Component {
-  constructor(props) { 
-    super(props)
-    this.state = {
-      users : [
+  users = [
     {
       id: 1,
       firstname: "Bob",
@@ -35,16 +29,19 @@ class Users extends React.Component {
       isHappy: true,
       fonenomber: "067 470 87 21"
     },
-  ]
-    }
-    
-  }
-
+  ];
   render() {
-    if (this.state.users.length>0) { return (
+    if (this.users.length>0) { return (
       <div>
-        {this.state.users.map((el) => (
-          <User key={el.id} user={el}/>
+        {this.users.map((el) => (
+          <div className="user" key={el.id}>
+            <h3>
+              {el.firstname} {el.Lastbame}
+            </h3>
+            <p>{el.bio}</p>
+            <p>{el.fonenomber}</p>
+            <b>{el.isHappy ? 'Щасливий :)': 'Не дуже :(' }</b>
+          </div>
         ))}
       </div>
     );
